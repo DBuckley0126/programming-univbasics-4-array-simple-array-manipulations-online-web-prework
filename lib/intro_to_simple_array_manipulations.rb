@@ -35,5 +35,7 @@
  end
  
  def using_flatten(array, element)
-  array.insert(4, element)
- end   
+  array.flatten
+ end
+ 
+ 
