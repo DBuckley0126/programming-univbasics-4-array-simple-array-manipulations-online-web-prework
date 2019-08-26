@@ -38,4 +38,6 @@
   array.flatten
  end
  
- 
+ def using_insert(array, string)
+  array.insert(4, element)
+ end    
