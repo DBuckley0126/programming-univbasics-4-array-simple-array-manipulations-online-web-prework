@@ -26,6 +26,6 @@
   array1.concat(array2)
  end
  
- def shift_with_a(array, element)
+ def using_insert(array, element)
   array.insert(3, element)
  end   
