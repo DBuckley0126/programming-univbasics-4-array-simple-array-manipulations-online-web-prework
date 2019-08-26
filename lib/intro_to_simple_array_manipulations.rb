@@ -38,6 +38,10 @@
   array.flatten
  end
  
- def using_insert(array, string)
+ def using_delete(array, string)
+  array.delete(string)
+ end  
+ 
+ def using_delete_at(array, integer)
   array.insert(4, element)
  end    
