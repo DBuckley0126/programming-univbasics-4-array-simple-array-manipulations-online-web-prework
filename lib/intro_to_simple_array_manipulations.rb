@@ -1,4 +1,4 @@
  def using_push(Array, String)
-  array.push(string)
+  updated_array = array.push(string)
  end
  
