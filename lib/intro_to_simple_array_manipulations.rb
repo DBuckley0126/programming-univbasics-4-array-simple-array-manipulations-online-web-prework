@@ -27,5 +27,5 @@
  end
  
  def shift_with_args(array, element)
-  array.
+  array.insert(3, element)
  end   
